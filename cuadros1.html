@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio Flexbox 1 - Columnas</title>
+    <style>
+        /* Estilos del Contenedor (Padre) */
+        .container-row {
+            display: flex;
+            gap: 15px;
+            padding: 20px;
+            height: 300px;
+        }
+
+        /* Estilos de los Items */
+        .box {
+            flex: 1;
+            border-radius: 4px;
+        }
+
+        /* Colores según tu material visual */
+        .orange { background-color: #ff7f00; }
+        .teal   { background-color: #008080; }
+        .maroon { background-color: #660033; }
+    </style>
+</head>
+<body>
+    <div class="container-row">
+        <div class="box orange"></div>
+        <div class="box teal"></div>
+        <div class="box maroon"></div>
+    </div>
+</body>
+</html>
